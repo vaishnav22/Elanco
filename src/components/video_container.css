@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:wght@400;500&display=swap');
 
 .section {
     position: relative;
@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    margin: 0;
 }
 
 h1{
@@ -24,20 +25,21 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
 }
 
 .h1-data {
     position: absolute;
     color: white;
     font-size: 30px;
-    margin-top: 45px;
+    margin-top: 47px;
     font-family: 'Poppins', sans-serif;
 
 }
 
 .button-h1{
-    color: white;
+    color: black;
+    font-weight: 500;
     position: absolute;
     margin-top: 100px;
     font-family: 'Poppins', sans-serif;
