@@ -8,11 +8,11 @@ function video_container() {
                 <h1>ELANCO and DOGS</h1>
                 <h1 className="h1-data">Elanco products address a variety of animal health issues.</h1>
             </div>
-            <div className="button-data">
+            {/* <div className="button-data">
                 <h1 className="button-h1">
                     Scroll down to know more
                 </h1>
-            </div>
+            </div> */}
             <div className="section">
                 <div className="video-container">
                     <video className="" autoPlay="yes" loop="yes" muted="yes" data-reactid=".0.1.0.0">

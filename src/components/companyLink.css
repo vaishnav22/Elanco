@@ -83,10 +83,15 @@
     font-size: 20px;
 }
 
-@media screen and (max-width:415px){
+
+
+
+
+
+@media screen and (max-width:1400px){
     .section-data-h2{
         width: 100%;
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 300;
         text-align: justify;
         margin-left: 0px;
@@ -95,44 +100,45 @@
 
     .section-data{
         display: flex;
-        margin-top: 0px;
+        margin-top: 10px;
         width: 100%;
         justify-content: center;
         align-items: center;
         font-family: 'Poppins', sans-serif;
-        margin-left: 5px;
+        margin-left: 1px;
+        padding: 0px 2px 0px 2px;
     }
 
-    .section-data-h2{
-        font-size: 18px;
+    /* .section-data-h2{
+        font-size: 25px;
         font-weight: 300;
         width: 100%;
         justify-content: center;
         align-items: center;
         text-align: justify;
         padding: 0px 10px;
-    }
+    } */
 
     .accordion{
-        width: 370px;
+        width: 900px;
     }
 
     .company_title{
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .company_data{
-        font-size: 17px;
+        font-size: 22px;
         font-family: 'Poppins', sans-serif;
     }
 
     .company_link{
-        font-size: 13px;
+        font-size: 18px;
         font-family: 'Poppins', sans-serif;
     }
 }
 
-@media screen and (max-width:615px){
+@media screen and (max-width:730px){
     .section-data-h2{
         width: 100%;
         font-size: 23px;
@@ -153,15 +159,15 @@
         padding: 0px 2px 0px 2px;
     }
 
-    .section-data-h2{
-        font-size: 18px;
+    /* .section-data-h2{
+        font-size: 20px;
         font-weight: 300;
         width: 100%;
         justify-content: center;
         align-items: center;
         text-align: justify;
         padding: 0px 10px;
-    }
+    } */
 
     .accordion{
         width: 500px;
@@ -182,10 +188,10 @@
     }
 }
 
-@media screen and (max-width:730px){
+@media screen and (max-width:615px){
     .section-data-h2{
         width: 100%;
-        font-size: 25px;
+        font-size: 21px;
         font-weight: 300;
         text-align: justify;
         margin-left: 0px;
@@ -203,15 +209,15 @@
         padding: 0px 2px 0px 2px;
     }
 
-    .section-data-h2{
-        font-size: 20px;
+    /* .section-data-h2{
+        font-size: 18px;
         font-weight: 300;
         width: 100%;
         justify-content: center;
         align-items: center;
         text-align: justify;
         padding: 0px 10px;
-    }
+    } */
 
     .accordion{
         width: 500px;
@@ -228,6 +234,55 @@
 
     .company_link{
         font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media screen and (max-width:460px){
+    .section-data-h2{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: justify;
+        margin-left: 0px;
+    }
+
+
+    .section-data{
+        display: flex;
+        margin-top: 0px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 5px;
+    }
+
+    /* .section-data-h2{
+        font-size: 16px;
+        font-weight: 300;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding: 0px 10px;
+    } */
+
+    .accordion{
+        width: 400px;
+    }
+
+    .company_title{
+        font-size: 18px;
+    }
+
+    .company_data{
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .company_link{
+        font-size: 12px;
         font-family: 'Poppins', sans-serif;
     }
 }

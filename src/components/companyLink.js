@@ -65,7 +65,6 @@ function CompanyLink() {
         }
     ]
 
-    console.log(data.data);
     return (
         <div className="description">
             <div className="section-data">
