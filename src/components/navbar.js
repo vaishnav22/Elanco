@@ -1,19 +1,20 @@
 import React from 'react'
 import * as ReactBootstrap from "react-bootstrap"
-import logo from '../../src/globe.png'
+import logo from '../../src/globe1.png'
+import './navbar_css.css'
 
 function NavBar() {
     return (
         <div>
             <ReactBootstrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
             <ReactBootstrap.Container>
-            <ReactBootstrap.Navbar.Brand href="https://www.elanco.us/"><img
+            <ReactBootstrap.Navbar.Brand href="https://www.elanco.us/"><span className="brand_img"><img
           alt=""
           src={logo}
           width="30"
           height="30"
           className="d-inline-block align-top"
-        />ELANCO</ReactBootstrap.Navbar.Brand>
+        /></span>ELANCO</ReactBootstrap.Navbar.Brand>
             <ReactBootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <ReactBootstrap.Navbar.Collapse id="responsive-navbar-nav">
                 <ReactBootstrap.Nav className="me-auto">
