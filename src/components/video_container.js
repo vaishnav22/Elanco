@@ -10,7 +10,7 @@ function video_container() {
             </div>
             <div className="section">
                 <div className="video-container">
-                    <video className="" autoPlay="yes" loop="yes" muted="yes" data-reactid=".0.1.0.0">
+                    <video className="" autoPlay="yes" loop="yes" muted="yes" data-reactid=".0.1.0.0" playsInline="yes">
                         <source src='/Videos/video_1.mp4' type="video/mp4" />
                     </video>
                 </div>
